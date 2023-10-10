@@ -196,6 +196,9 @@ const openProfile = (val) =>{
  let token = [val.token]
 document.cookie = `token=${token} path=/page/your-profile/profil.html`
  window.sessionStorage.setItem('name', username)
-  location.href='http://127.0.0.1:5500/profil.html'
+  // location.href='http://127.0.0.1:5500/profil.html'
+  location.href='https://gibadullintagir.github.io/sign-in/profil.html'
 }
+
+
 

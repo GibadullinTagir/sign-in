@@ -7,5 +7,7 @@ header.innerHTML += `Добро пожаловать ${name}`;
 
 exit.addEventListener("click", (e) => {
   window.sessionStorage.clear();
-  location.href = "http://127.0.0.1:5500/";
+  // location.href = "http://127.0.0.1:5500/";
+  
+  location.href = "https://gibadullintagir.github.io/sign-in/";
 });
